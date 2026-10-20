@@ -8,6 +8,8 @@ A Spring Boot application that demonstrates the full messaging flow:
 ---
 config:
   layout: dagre
+  flowchart:
+    wrappingWidth: 400
 ---
 flowchart LR
     client(["Client<br/>curl / Postman"])

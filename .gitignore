@@ -1,0 +1,44 @@
+# Build output
+target/
+!.mvn/wrapper/maven-wrapper.jar
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# Eclipse / STS
+.classpath
+.project
+.settings/
+.factorypath
+.apt_generated/
+.springBeans
+.sts4-cache/
+bin/
+
+# VS Code
+.vscode/
+
+# NetBeans
+nbproject/private/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+# Logs
+*.log
+logs/
+
+# Environment / local overrides
+.env
+*.env.local
+application-local.yml
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini

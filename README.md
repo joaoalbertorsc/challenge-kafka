@@ -5,6 +5,10 @@
 A Spring Boot application that demonstrates the full messaging flow:
 
 ```mermaid
+---
+config:
+  layout: dagre
+---
 flowchart LR
     client(["Client<br/>curl / Postman"])
     controller["MessageController<br/>POST /api/messages"]
